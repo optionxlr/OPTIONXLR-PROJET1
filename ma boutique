@@ -25,3 +25,8 @@ mon-boutique/
 └── backend/
     └── envoyer_emails.py
     └── subscribers.json
+mon-boutique/        ← racine du dépôt Git
+├── frontend/        ← ton code Next.js + Tailwind
+├── backend/         ← ton script Python + subscribers.json
+├── .gitignore
+└── README.md
