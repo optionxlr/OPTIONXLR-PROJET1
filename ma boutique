@@ -30,3 +30,9 @@ mon-boutique/        ← racine du dépôt Git
 ├── backend/         ← ton script Python + subscribers.json
 ├── .gitignore
 └── README.md
+git init
+git add .
+git commit -m "Initialisation du projet mon-boutique"
+git remote add origin https://github.com/TON-USERNAME/mon-boutique.git
+git branch -M main
+git push -u origin main
