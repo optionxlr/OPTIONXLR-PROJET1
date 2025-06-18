@@ -1,0 +1,27 @@
+mon-boutique/
+├── frontend/
+│   ├── public/
+│   │   └── favicon.ico
+│   ├── src/
+│   │   ├── pages/
+│   │   │   ├── _app.js
+│   │   │   ├── index.js
+│   │   │   ├── produit/[id].js
+│   │   │   └── api/
+│   │   │       ├── subscribe.js
+│   │   │       └── sendEmails.js
+│   │   ├── components/
+│   │   │   ├── Header.js
+│   │   │   ├── Footer.js
+│   │   │   ├── CardProduit.js
+│   │   │   └── FormulaireNewsletter.js
+│   │   ├── lib/
+│   │   │   └── ali.js
+│   │   └── styles/
+│   │       └── globals.css
+│   ├── .env.local
+│   ├── tailwind.config.js
+│   └── package.json
+└── backend/
+    └── envoyer_emails.py
+    └── subscribers.json
