@@ -1,3 +1,4 @@
+git remote set-url origin https://github.com/OptionXLR/mon-boutique.git
 export async function fetchProduits() {
   return [
     {
